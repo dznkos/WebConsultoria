@@ -13,8 +13,5 @@ def contact(request):
 def blog(request):    
     return render(request, "core/blog.html")
 
-def portfolio(request):    
-    return render(request, "core/portfolio.html")
-
 def services(request):    
     return render(request, "core/services.html")
