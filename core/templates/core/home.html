@@ -1,0 +1,38 @@
+{% extends "core/base.html" %}
+
+{% block title %}Home{% endblock %}
+
+
+{% block background %}{% load static %}{% static 'core/images/blog-post-big.jpg'%}{% endblock %}
+
+{% block headers %}
+<h1>I'am <span class="typed"></span></h1>
+                <h3 style=" color:aliceblue ">Home</h3>
+{% endblock%}
+
+{% block content %}
+<div id="about" class="paddsection">
+    
+    <div class="container">
+        <h2 align="center">Last - Blog</h2>
+      <div class="row justify-content-between">        
+        <div class="col-lg-7">
+          <div class="about-descr">
+            
+            <p class="p-heading">Post numero 12</p>
+            <p class="separator">To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine told me what Occidental is. The European languages are members of the same family.English person.</p>
+
+          </div>
+
+        </div>
+        <div class="col-lg-4 ">
+            <div class="div-img-bg">
+              <div class="about-img">
+                <img src="{% static 'core/images/blog-post-2.jpg' %}" class="img-responsive" alt="me">
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}
