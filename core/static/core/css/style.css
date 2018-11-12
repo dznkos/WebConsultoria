@@ -256,7 +256,7 @@ nav ul li a {
 }
 
 .header-content h1 {
-  font-size: 40px;
+  font-size: 20px;
   font-weight: 700;
   margin-bottom: 10px;
   text-transform: uppercase;
@@ -279,31 +279,54 @@ nav ul li a {
 }
 
 .header-content .list-social li i {
-  color: #fff;
-  font-size: 15px;
+  color: rgb(8, 8, 8);
+  font-size: 15px;  
+  background: #fff;
 }
 
 /*-----------------------------------------------------------------------------------*/
 /*  Aout-us
 /*-----------------------------------------------------------------------------------*/
+.about-image {
+  border: 2px solid black;
+}
+.about-image img {
+  width: 100%;
+  vertical-align: middle;
+  padding-top: 25px;
+}
+.scrollxy {
+  overflow-y: scroll;
+  height: 100%;
+  padding: 0 15px 0 0;
+}
+.about-content h2{
+  padding-bottom: 15px;
+}
+.about-content {
+
+  padding: 10px 40px 45px;
+  font-weight: 300;
+  height: 390px;
+
+}
 
 #about {
   width: 100%;
   height: auto;
   background: #f7f7f7;
-  padding-top: 100px;
+  padding-top: 80px;
 }
 
 #about .div-img-bg {
-  padding-bottom: 30px;
-  border: 20px solid #b8a07e;
+  padding-top: 15px;
 }
 
 #about .div-img-bg .about-img img {
   width: 100%;
   box-shadow: 0px 0px 85px 0px rgba(0, 0, 0, 0.14);
-  margin-top: -60px;
-  margin-left: 40px;
+  margin-top: -20px;
+  margin-left: 10px;
   height: 400px;
   object-fit: cover;
 }
@@ -320,6 +343,8 @@ nav ul li a {
   text-align: left;
 }
 
+
+
 /*-----------------------------------------------------------------------------------*/
 /*   Services
 /*-----------------------------------------------------------------------------------*/
@@ -327,6 +352,7 @@ nav ul li a {
 #services {
   background: #f7f7f7;
   position: relative;
+  padding-top: 80px;
   padding-bottom: 80px;
 }
 
@@ -380,12 +406,33 @@ nav ul li a {
 
 .services-carousel .owl-dot.active {
   background-color: #b8a07e;
+
 }
 
 .owl-nav {
   display: none;
 }
 
+.carousel-caption h3{  
+  color: #ffffff;
+  font-family: 'Times New Roman', Times, serif;
+  text-shadow: #292929;
+  font-size: 52px;
+  font-style: oblique;
+  text-shadow: 0.1em 0.1em 0.05em #333;
+  text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black;
+}
+.carousel-caption p{  
+  color: #ffffff;
+  font-family: 'Times New Roman', Times, serif;
+  text-shadow: #292929;
+  font-size: 25px;
+  font-style: bold;
+  text-shadow: 0.1em 0.1em 0.05em #333;
+  text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black;
+}
 
 /*-----------------------------------------------------------------------------------*/
 /*  Portfolio

@@ -6,93 +6,106 @@
 {% block background %}{% load static %}{% static 'core/images/blog-post-big.jpg'%}{% endblock %}
 
 {% block headers %}
-<h1 style="color: black;">I'am <span class="typed"></span></h1>
-                <h3 style=" color:black ">Home</h3>
+<div class="header-1">
+  <h1 style="color: black; ">Consultoría Gms</h1>
+  <h2 style="color: rgb(202, 48, 48);"><span class="typed"></span></h2>
+</div>
 {% endblock%}
 
 {% block content %}
 <br>
+<!--Inicio Home -->
 <div class="container">
     <div class="section-title text-center">
-      <h2>Home</h2>
+        <h2>Inicio</h2>
+        <div class="row justify-content-between">
+            <div class="col-md-12" >
+                <div class="about-descr">
+        
+                  <p class="p-heading">Brindamos un Servicio Enfocado en el Capital Humano de las Organizaciones. 
+                    Nos orientamos a ser un partner de nuestros Clientes. Innovamos con Herramientas Diferenciadoras
+                     en nuestros procesos, que brindan al cliente información relevante para la toma de decisiones.</p>
+                </div>
+              </div>
+            </div>
+    </div>
+   
+<!--Informacion Empresa Home -->
+<div class="row">
+  <div class="col-md-6 col-sm-12 about-image">
+    <img class="img-responsive" src="{% static 'core/images/blog-post-2.jpg' %}" alt="">
+  </div>
+  <div class="col-md-6 col-sm-12 about-content default-bg">
+      <h2>Gms <span>Consult</span></h2>
+    <div class="scrollxy">
+      <p align="justify">Somos una organización de profesionales y especialistas en la gestión de  empresas y organizaciones, apasionados y rigurosos en la búsqueda constante de las mejores soluciones para cada tipo de negocio y organización.</p>
+      <p align="justify">Promovemos la práctica de la Gestión Empresarial de calidad y por resultados, creando y actualizando modelos de negocios, adaptándolos a las necesidades de las empresas, con énfasis en el uso eficiente y efectivo de los recursos financieros, humanos y de gestión, para cumplir con las metas y objetivos empresariales.</p>
+      <p align="justify">Trabajamos con todo tipo de organizaciones, en especial con las micro, pequeñas, y medianas empresas, así como en negocios y empresas familiares, a las cuales asesoramos y brindamos consultorías.</p>
+      <p align="justify">Actuamos teniendo en cuenta la cultura organizacional y la misión de las empresas, así como las metas y objetivos de liquidez, rentabilidad, mercado, y crecimiento, y con visión de largo plazo.</p>
+      <p align="justify">Estamos comprometidos con nuestra biodiversidad y actuamos de manera responsable procurando generar los menores impactos en nuestro medio ambiente.</p>
     </div>
   </div>
-<div class="container">
-    <div class="row justify-content-between">
-    <div class="col-lg-7" >
-        <div class="about-descr">
-
-          <p class="p-heading">Brindamos un Servicio Enfocado en el Capital Humano de las Organizaciones. Nos orientamos a ser un partner de nuestros Clientes. Innovamos con Herramientas Diferenciadoras en nuestros procesos, que brindan al cliente información relevante para la toma de decisiones.
-
-              Las compañías con las que trabajamos nos dan una mirada amplia del mercado, van desde Pymes hasta Empresas Globales.
-              
-                  Tenemos presencia a lo largo de todo Chile.
-                  Contamos con un equipo de profesionales de excelencia.
-                  Efectividad sobre lo esperado.</p>
-          <p class="separator">Para lograr la excelencia en el servicio prestado, en todas y cada una de las asesorías la firma estructura su organización y desarrolla su actividad en torno a determinados principios y valores.</p>
-
-        </div>
-      </div>
-    </div>
+</div>
 </div>
 
-<div id="journal" class="text-left paddsection">
+<!--Footer Servicios Home -->
+<div id="services">
+    <div class="container">
 
-  <div class="container">
-    <div class="journal-block">
-      <div class="row">
+        <div class="services-carousel owl-theme">
 
-        <div class="col-lg-4 col-md-6">
-          <div class="journal-info">
+          <div class="services-block">
 
-            <a href="blog-single.html"><img src="{% static 'core/images/blog-post-1.jpg' %}" class="img-responsive" alt="img"></a>
-
-            <div class="journal-txt">
-
-              <h4><a href="blog-single.html">Servicios 1</a></h4>
-              <p class="separator">To an English person, it will seem like simplified English
-              </p>
-
-            </div>
+            <i class="ion-ios-browsers-outline"></i>
+            <span>UI/UX Diseño</span>
+            <p class="separator">Inteface Usuario, diseño web,told me what </p>
 
           </div>
-        </div>
 
-        <div class="col-lg-4 col-md-6">
-          <div class="journal-info">
+          <div class="services-block">
 
-            <a href="blog-single.html"><img src="{% static 'core/images/blog-post-2.jpg' %}" class="img-responsive" alt="img"></a>
-
-            <div class="journal-txt">
-
-              <h4><a href="#blog-single.html">Servicios 2</a></h4>
-              <p class="separator">To an English person, it will seem like simplified English
-              </p>
-
-            </div>
+            <i class="ion-ios-lightbulb-outline"></i>
+            <span>Business Intelligence</span>
+            <p class="separator">To an English person, it will seem like simplified English,told me what </p>
 
           </div>
-        </div>
 
-        <div class="col-lg-4 col-md-6">
-          <div class="journal-info">
+          <div class="services-block">
 
-            <a href="blog-single.html"><img src="{% static 'core/images/blog-post-3.jpg' %}" class="img-responsive" alt="img"></a>
-
-            <div class="journal-txt">
-
-              <h4><a href="blog-single.html">Servicios 3</a></h4>
-              <p class="separator">To an English person, it will seem like simplified English
-              </p>
-
-            </div>
+            <i class="ion-ios-color-wand-outline"></i>
+            <span>Consultoria Juridica</span>
+            <p class="separator">To an English person, it will seem like simplified English,told me what </p>
 
           </div>
+
+          <div class="services-block">
+
+            <i class="ion-social-android-outline"></i>
+            <span>Consultoria Infraestructura</span>
+            <p class="separator">To an English person, it will seem like simplified English,told me what </p>
+
+          </div>
+
+          <div class="services-block">
+
+            <i class="ion-ios-analytics-outline"></i>
+            <span>Consultoria Tecnologica</span>
+            <p class="separator">To an English person, it will seem like simplified English,told me what </p>
+
+          </div>
+
+          <div class="services-block">
+
+            <i class="ion-ios-camera-outline"></i>
+            <span>Analytics</span>
+            <p class="separator">To an English person, it will seem like simplified English,told me what </p>
+
+          </div>
+
         </div>
 
-      </div>
     </div>
+
   </div>
 
-</div>
 {% endblock %}
